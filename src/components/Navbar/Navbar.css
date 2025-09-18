@@ -1,0 +1,32 @@
+.navbar {
+  padding: 0px 20px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin: 0;
+  padding: 0px;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(113, 112, 112);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: large;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: rgb(83, 195, 158);
+}
