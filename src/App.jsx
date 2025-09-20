@@ -1,5 +1,7 @@
+import About from "./components/About/About";
+
 function App() {
-  return;
+  return <About />;
 }
 
 export default App;
